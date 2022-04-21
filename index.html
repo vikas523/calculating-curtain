@@ -1,0 +1,177 @@
+<!-- <!DOCTYPE html>
+<html>
+  <head>
+    <title>curtain part calculator</title>
+    <meta charset="UTF-8" />
+    <style>
+   body {
+  font-family: sans-serif;
+  margin:0;
+  padding: 0;
+  background-image: url("./images.jpg");
+   background-repeat: no-repeat;	 
+  background-size: 1440px 770px;
+}
+#app {
+  width: 50%;
+  margin-left: 500px ;
+  margin-top: 250px;
+}
+/* #color {
+  margin-left: 40px;
+  width: 185px;
+} */
+   
+#width {
+  margin-left: 38px;
+}
+
+#height {
+  margin-left: 33px;
+}
+
+#wrinkles {
+  margin-left: 14px;
+  width: 185px;
+}
+ 
+#headRail {
+  width: 185px;
+}
+#total {
+  margin-left: 11px;
+}
+#submitBtn{
+  padding: 8px;
+  cursor: pointer;
+}
+     
+    </style>
+  </head>
+
+  <body>
+    <div id="app">
+      
+
+    Select Color:
+    <select id="color">
+      <option value="blue">Blue </option>
+      <option value="Ivory">Ivory </option>
+      <option value="Cream">Cream </option>
+      <option selected value="green">Green </option>
+      <option value="maple">Maple </option>
+    </select>
+    <br />
+    WIdth: <input type="number" id="width" name="width" />
+    <br />
+    Height: <input type="number" id="height" name="height" />
+    <br />
+    
+    wrinkles :
+    <select id="wrinkles">
+      <option value="none">none</option>
+      <option  selected value="x1.5">x1.5 </option>
+      <option value="x2">x2 </option>
+      <option value="hooks tape">hooks tape </option>
+    </select>
+    <br />
+    headRails :
+    <select id="headRail">
+      <option value="none">none </option>
+      <option selected value="curtain-rail 25mm pole">curtain-rail 25mm pole </option>
+      <option value="curtain-rail 35mm pole">curtain-rail 35mm pole </option>
+   
+    </select>
+    <br />
+  
+    shipping :
+    <select id="shipping">
+      <option value="genral">genral </option>
+      <option selected value="express">express </option>
+    </select>
+    <br>
+    <br>
+    <button id="submitBtn">Calculate</button>
+    <br />
+    total price: <input disabled id="total" />
+  </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html> -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  
+       <h1>custom price calculator</h1>
+       
+	
+          
+
+    <div style="width:97%;margin:1.5%;margin-bottom:3%;border: 1px solid #FFFFFF;background-color: #F7F7F7;border-radius: 5px; ">
+        <h4 style="padding: 6px 15px;background-color: #5D6D7E;color: #FFFFFF;font-family:ver;">Specify Your Requirements		
+        </h4>
+        <div class="woosppo_main_parent_divv" style="padding: 15px 15px 15px 15px;">
+            <input type="hidden" id="woosppo_all_rules_encapsulated" value='[]'>
+	
+
+            Select Color:
+    <select id="color">
+      <option value="blue">Blue </option>
+      <option value="Ivory">Ivory </option>
+      <option value="Cream">Cream </option>
+      <option selected value="green">Green </option>
+      <option value="maple">Maple </option>
+    </select>
+    <br />
+    WIdth: <input type="number" id="width" name="width" />
+    <br />
+    Height: <input type="number" id="height" name="height" />
+    <br />
+    
+    wrinkles :
+    <select id="wrinkles">
+      <option value="none">none</option>
+      <option  selected value="x1.5">x1.5 </option>
+      <option value="x2">x2 </option>
+      <option value="hooks tape">hooks tape </option>
+    </select>
+    <br />
+    headRails :
+    <select id="headRail">
+      <option value="none">none </option>
+      <option selected value="curtain-rail 25mm pole">curtain-rail 25mm pole </option>
+      <option value="curtain-rail 35mm pole">curtain-rail 35mm pole </option>
+   
+    </select>
+    <br />
+  
+    shipping :
+    <select id="shipping">
+      <option value="genral">genral </option>
+      <option selected value="express">express </option>
+    </select>
+
+
+
+        <h4 style="padding: 6px 15px;background-color: #5D6D7E;color: #FFFFFF;font-family:ver;">Calculated Results	
+        </h4>
+    
+        <button id="submitBtn">Calculate</button>
+        <br />
+        total price: <input disabled id="total" />
+      </div>
+    
+        <script src="src/index.js"></script>
+        
+</body>
+</html>
